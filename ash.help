@@ -1,0 +1,25 @@
+
+I understand the following commands (synonyms in parentheses)
+
+change OBJECT to NEWNAME	Changes the name of the object
+clone OBJECT as NEWNAME		Makes a copy of the object
+drop OBJECTS			Leaves the objects in the room
+enter (go) PASSAGE		Takes the labeled passage
+examine OBJECTS			Describes the objects in detail
+feed OBJECT to MONSTER		Stuffs the object into a UNIX monster
+get (take) OBJECTS		Picks up the specified objects
+grip (bug)			Report a problem with the Adventure shell
+help				Prints the summary
+inventory (i)			Tells what you are carrying
+kill (destroy) OBJECTS		Destorys the objects
+look (l)			Describes the room, including hidden objects
+open (read) OBJECT		Shows the contents of an object
+quit (quit)			Leaves the Adventure shell
+resurrect OBJECTS		Attempts to restore dead objects
+steal OBJECT from MONSTER	Obtains the object from a UNIX monster
+throw OBJECT at daemon		Feeds the object to the printer monster
+up				Takes the overhead passage
+wake MONSTER			Awakens a UNIX monster
+where (w)			Tells where you are
+xyzzy				Moves you to your home
+
