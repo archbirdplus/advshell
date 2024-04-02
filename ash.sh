@@ -9,8 +9,8 @@ UCB=/usr/bin
 
 #
 # Do you believe in "echo -n foo" or "echo foo\c"?
-#E2= "\c"
-E1="-n"
+E2="\c"
+#E1="-n"
 #
 #  Pager, pick one.
 #PAGE=/usr/bin/pg
