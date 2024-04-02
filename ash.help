@@ -11,7 +11,7 @@ get (take) OBJECTS		Picks up the specified objects
 grip (bug)			Report a problem with the Adventure shell
 help				Prints the summary
 inventory (i)			Tells what you are carrying
-kill (destroy) OBJECTS		Destorys the objects
+kill (destroy) OBJECTS		Destroys the objects
 look (l)			Describes the room, including hidden objects
 open (read) OBJECT		Shows the contents of an object
 quit (quit)			Leaves the Adventure shell
