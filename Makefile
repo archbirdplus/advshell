@@ -4,7 +4,7 @@
 
 CFLAGS	= -O
 L	= /usr/local/lib
-B	= /user/local/bin
+B	= /usr/local/bin
 
 install:	$L/ash.help $L/ash.inst $L/ash.has $B/ash
 

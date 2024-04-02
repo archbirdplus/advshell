@@ -4,6 +4,9 @@
 HELP=/usr/local/lib/ash.help
 INST=/usr/local/lib/ash.inst
 HAS=/usr/local/lib/ash.has
+
+UCB=/usr/bin
+
 #
 # Do you believe in "echo -n foo" or "echo foo\c"?
 #E2= "\c"
@@ -11,16 +14,16 @@ E1="-n"
 #
 #  Pager, pick one.
 #PAGE=/usr/bin/pg
-PAGE=/usr/ucb/more
+PAGE=$UCB/more
 #
 #  Formatter, pick one.
 #FMT="pr -t -5"
-FMT=/usr/ucb/fmt
+FMT=$UCB/fmt
 #FMT="att pr -t -5"
 #
 #  Patch hackery; /.attbin for for Pyramids
 OPATH=$PATH
-PATH=/usr/ucb:/usr/bin:/bin #:/.attbin
+PATH=/usr/bin:/bin #:/.attbin
 export PATH
 
 trap 'echo Ouch!' 2 3
