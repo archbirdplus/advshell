@@ -210,7 +210,7 @@ while : ; do
 	for I in $obj $x ; do
 	  if $HAS " $kn " " $I " ; then
 	    if [ -w $I ] ; then
-	      echo "You must destory $I first."
+	      echo "You must destroy $I first."
 	    elif mv $HOME/$KNAP/$I $I >&- 2>&- ; then
 	      echo "$I: dropped."
 	      kn=`echo '' $kn '' | sed -e "s/ $I / /" -e 's/^ //' -e 's/  $//'`
@@ -354,7 +354,7 @@ while : ; do
       fi
       ;;
 
-    kill|destory)
+    kill|destroy)
       if [ "$obj" ] ; then
 	if [ $obj = all ] ; then
 	  x=
